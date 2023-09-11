@@ -1,0 +1,42 @@
+header {
+  background-color: #212529;
+  padding: 20px;
+  width: 100%;
+  top: 0;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  .menu ul {
+    list-style: none;
+  }
+
+    .menu ul li {
+      display: inline;
+    }
+
+      .menu ul li a {
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        transition: all .2s ease-in-out;
+      }
+
+        .menu ul li a:hover {
+          color: #ffffff87;
+        }
+
+.logo-header {
+  width: 50px;
+  animation: in-circle-swoop .2s ease-in-out;
+}

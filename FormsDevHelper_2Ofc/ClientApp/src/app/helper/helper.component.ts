@@ -6,7 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./helper.component.css']
 })
 export class HelperComponent {
-
-  public incrementCounter() {
-  }
+      
 }
